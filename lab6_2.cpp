@@ -23,8 +23,10 @@ double pythagoras(double x,double y){
 }
 
 void showResult(double l,double a){
+    cout <<"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"<<endl;
     cout <<"Length of the resultant vector = "<<l<<endl;
     cout <<"Direction of the resultant vector (deg) = "<<a<<endl;
+    cout <<"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"<<endl;
 }
 
 
