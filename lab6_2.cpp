@@ -2,27 +2,27 @@
 #include<cmath>
 using namespace std;
 
-float deg2rad(float x){
+double deg2rad(double x){
     return (x*M_PI)/180;
 }
 
-float rad2deg(float x){
+double rad2deg(double x){
     return (x*180)/M_PI;
 }
 
-float findXComponent(float l1,float l2,float a1,float a2){
+double findXComponent(double l1,double l2,double a1,double a2){
     return (cos(a1)*l1)+(cos(a2)*l2);
 }
 
-float findYComponent(float l1,float l2,float a1,float a2){
+double findYComponent(double l1,double l2,double a1,double a2){
     return (sin(a1)*l1)+(sin(a2)*l2);
 }
 
-float pythagoras(float x,float y){
+double pythagoras(double x,double y){
     return sqrt((x*x)+(y*y));
 }
 
-void showResult(float l,float a){
+void showResult(double l,double a){
     cout <<"Length of the resultant vector = "<<l<<endl;
     cout <<"Direction of the resultant vector (deg) = "<<a<<endl;
 }
